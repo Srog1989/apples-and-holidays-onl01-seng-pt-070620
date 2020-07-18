@@ -64,7 +64,7 @@ holiday_hash.each do |season, holiday|
     array=holiday_name.to_s.split("_").map do |word|
       word.capitalize
   end
-    puts"  " + array.join(" ") + ":" + supplies.join(", ")
+    puts"  " + array.join(" ") + ": " + supplies.join(", ")
     end
   end 
 end 
